@@ -11,6 +11,11 @@ sudo apt-get install apache2 nginx apt-mirror dpkg-dev
 ```
 
 3)Configure the mirror settings. The configuration file for apt-mirror is located at /etc/apt/mirror.list. You need to edit this file to specify the source repository URL and the local directory where the mirror will be stored. Here's an example configuration file for the Ubuntu 20.04 LTS (Focal Fossa) distribution:
+```
+Copy code:-
+sudo nano /etc/apt/mirror.list
+```
+Add the following lines of code to the mirror.list file
 
 Copy code:-
 ```
@@ -37,12 +42,14 @@ sudo apt-mirror
 5)Configure the web server to serve the mirror files. If you're using apache2, you can simply copy the files from the local directory to the document root directory:
 
 Copy code:-
+```
 sudo cp -R /var/www/html/ubuntu /var/www/html/mirror
 If you're using nginx, you need to create a new virtual host configuration file in /etc/nginx/sites-available/ and then enable it:
-
+```
 Copy code:-
+```
 sudo nano /etc/nginx/sites-available/mirror.conf
-
+```
 Add the following configuration to the file:
 
 Copy code:-
