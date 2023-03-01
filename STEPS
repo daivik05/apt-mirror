@@ -1,0 +1,9 @@
+Here are the steps to create an apt mirror:
+
+Choose a computer with sufficient disk space and bandwidth to host the mirror. This can be a physical or virtual machine, running Linux or another Unix-like operating system.
+
+Install the required packages on the server. This can vary depending on the Linux distribution, but typically includes packages like apache2, nginx, apt-mirror, and dpkg-dev. Use the following command to install the packages on an Ubuntu system:
+
+Copy code
+sudo apt-get update
+sudo apt-get install apache2 nginx apt-mirror dpkg-dev
