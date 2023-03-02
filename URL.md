@@ -3,7 +3,7 @@ To create a URL for your APT mirror, you need to have a web server set up and ru
 
 Install a web server: You can install a web server such as Apache or Nginx on your server. The exact steps for installation depend on your operating system and distribution. For example, on Ubuntu, you can install Apache with the following command:
 
-#### Here are the steps to use Apache2 to set up your APT mirror server: 
+#### 1)Here are the steps to use Apache2 to set up your APT mirror server: 
 1)Install Apache2: The first step is to install Apache2 on your system. On Ubuntu or Debian, you can run the following command to install Apache2:
 Copy code:-
 ```
@@ -41,7 +41,7 @@ sudo service apache2 restart
 ```
 5)Test the URL: You can test the URL of your APT mirror by opening a web browser and navigating to the URL you created in step 2 (e.g. `http://my-mirror.com`). You should see a directory listing of the APT repository.
 
-#### Here are the steps to use Nginx to set up your APT mirror server:
+#### 2)Here are the steps to use Nginx to set up your APT mirror server:
 
 1)Install Nginx: The first step is to install Nginx on your system. On Ubuntu or Debian, you can run the following command to install Nginx:
 
