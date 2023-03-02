@@ -1,4 +1,4 @@
-To check if your APT mirror works and is serving packages correctly on your system, follow these steps:
+# To check if your APT mirror works and is serving packages correctly on your system, follow these steps:
 
 1)Open a terminal window on your system.
 
